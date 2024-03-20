@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  /* Text */
+
+  --main-Pale-Violet: hsl(276, 100%, 81%);
+  --main-Moderate-Violet: hsl(276, 55%, 52%);
+  --main-Desaturated-Dark-Violet: hsl(271, 15%, 43%);
+  --main-Grayish-Blue: hsl(206, 6%, 79%);
+  --main-Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+  --main-Dark-Grayish-Violet: hsl(270, 7%, 64%);
+
+  /* Gradients */
+
+  --gradient-Light-Magenta: hsl(293, 100%, 63%);
+  --gradient-Light-Violet: hsl(264, 100%, 61%);
+
+  /* Secondary */
+
+  --secondary-White: hsl(0, 0%, 100%);
+  --secondary-Light-Grayish-Violet: hsl(270, 20%, 96%);
+  --secondary-Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+  --secondary-Very-Light-Magenta: hsl(289, 100%, 72%);
+}
