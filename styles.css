@@ -324,6 +324,11 @@ input[type="radio"] {
   }
 }
 
+
+@media screen and (max-width:500px) {
+  .back-purple{
+    margin-left: -100px;
+  }
   
 
 
