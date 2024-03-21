@@ -212,10 +212,14 @@ main {
 
 .time {
   opacity: 60%;
+  font-size: 0.5rem;
+  padding-left: 5px;
 }
 
 .price {
-  opacity: 90%;
+  opacity: 80%;
+  padding-right: 10px;
+  font-size: 1rem;
 }
 
 .radio-text {
