@@ -74,6 +74,7 @@ main {
   border: 10px solid white;
   border-radius: 30px;
   position: relative;
+  box-shadow: 0 0 50px var(--main-Dark-Grayish-Violet);
 }
 
 .white-space{position: absolute;
