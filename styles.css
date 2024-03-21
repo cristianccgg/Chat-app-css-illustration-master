@@ -43,15 +43,25 @@ main {
 .back-purple {
   position: absolute;
   top: 0;
-  left: -10%;
-  border-radius:  0% 0% 50% 50%;
-  width: 40%;
+  left: -100px;
+  border-radius: 0px 0px 400px 400px;
+  width: 535px;
   height: 90%;
   background: linear-gradient(
     var(--gradient-Light-Magenta),
     var(--gradient-Light-Violet));
   );
 }
+
+  .back-pink {position: absolute;
+    bottom: 0;
+    left: 1100px;
+    border-radius: 400px 0px 0px;
+    width: 340px;
+    height: 80%;
+    background: var(--secondary-Very-Light-Magenta);
+    opacity: 10%;
+  }
 
 .main-container {
   display: flex;
@@ -261,6 +271,7 @@ input[type="radio"] {
 
 .attribution{
   position: absolute;
+  left: 40%;
   bottom: 0;
 }
 
@@ -303,21 +314,16 @@ input[type="radio"] {
   }
 
   .right-description{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
-  .attribution{position: absolute;
-    bottom: -250px;
+  .attribution{
+    position: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
-  @media screen and (max-width:500px) {
-
-    .right-description{
-      margin-bottom: 50px;
-      padding: 30px;
-    }
-  }
   
 
 
