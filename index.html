@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -21,7 +20,6 @@
 
     <title>Frontend Mentor | [Challenge Name Here]</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -33,55 +31,87 @@
     </style>
   </head>
   <body>
-    <main>
-        <img src="/Images/avatar.jpg" alt="avatar" />
-        <h1 class="username">Samuel Green</h1>
-        <p class="available">Available to Walk</p>
+    <main>      
+      <div class="back-purple"></div>
+      <div class="main-container">
+      
+      <div class="phone-container">
+        <div class="white-space"></div>
+        <div class="user-container">  
+          <img class="left-arrow" src="/Images/angle-left-solid.svg" alt="left-icon">
+          <img class="avatar" src="/Images/avatar.jpg" alt="avatar" />
+          <div class="user-info">
+            <h1 class="username">Samuel Green</h1>
+            <p class="available">Available to Walk</p>
+          </div>
+          <img class="dots-icon" src="/Images/ellipsis-vertical-solid-2.svg" alt="dots-icon">
+        </div>  
 
-        <p class="left-discusion1">That sounds great. I’d be happy with that.</p>
+        <div class="chat-container">
+          <div class="left-discussion-main">
+            <p class="left-discussion">That sounds great. I’d be happy with that.</p>
+            <p class="left-discussion">
+              Could you send over some pictures of your dog, please?
+            </p>
+          </div>
 
-        <p class="left-discusion2">
-          Could you send over some pictures of your dog, please?
-        </p>
+          <div class="right-discussion-main">
+            <div class="dog-images">
+              <img class="dog-img" src="/Images/dog-image-1.jpg" />
+              <img class="dog-img" src="/Images/dog-image-2.jpg" />
+              <img class="dog-img" src="/Images/dog-image-3.jpg" />
+            </div>
+            <p class="right-discussion">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+            <p class="right-discussion">Can you make it?</p>
+          </div>
+            <p class="left-discussion">
+              She looks so happy! The time we discussed works. How long shall I take
+              her out for?
+            </p>
 
-        <img src="/Images/dog-image-1.jpg" />
-        <img src="/Images/dog-image-2.jpg" />
-        <img src="/Images/dog-image-3.jpg" />
-
-        <p class="right-discusion1">
-          Here are a few pictures. She’s a happy girl!
-        </p>
-
-        <p class="right-discusion2">Can you make it?</p>
-
-        <p class="left-discusion3">
-          She looks so happy! The time we discussed works. How long shall I take
-          her out for?
-        </p>
-
-        <p class="time">30 minute walk</p>
-        <h1 class="price">$29</h1>
-
-        <p class="time">1 hour walk</p>
-        <h1 class="price">$49</h1>
-
-        <input placeholder="Type a message…"></input>
-
-        <h1 class="right-title">Simple booking</h1>
-
-        <p class="right-description">
-          Stay in touch with our dog walkers through the chat interface. This
-          makes it easy to discuss arrangements and make bookings. Once the walk
-          has been completed you can rate your walker and book again all through
-          the chat.
-        </p>
-
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Cristian Gutierrez</a>.
+            <div class="prices--main-container">
+              <div class="prices-container">
+                <div class="radio-text">
+                <input type="radio" name="radio"/><p class="time">30 minute walk</p>
+              </div>
+                <h1 class="price">$29</h1>
+            </div>
+            <div class="prices-container">
+              <div class="radio-text">                
+                <input  type="radio" name="radio"/>
+                <p class="time">1 hour walk</p>
+              </div>
+                 <h1 class="price">$49</h1>
+              </div>
+            </div>
+            <input class="placeholder" placeholder="Type a message…"></input>
+          </div>
+       
         </div>
+
+          <!-- Right -main-container -->
+
+        <div class="right-main-container">
+
+          <h1 class="right-title">Simple booking</h1>
+
+          <p class="right-description">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the walk
+            has been completed you can rate your walker and book again all through
+            the chat.
+          </p>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Cristian Gutierrez</a>.
+      </div>
     </main>
+    
   </body>
 </html>
