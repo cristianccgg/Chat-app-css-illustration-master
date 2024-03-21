@@ -299,6 +299,9 @@ input[type="radio"] {
     margin-left: -200px;
   }
 
+  .back-pink{display: none;
+  }
+
   .right-main-container{
     display: flex;
     flex-direction: column;
