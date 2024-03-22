@@ -231,17 +231,17 @@ main {
   padding: 5px;
 }
 
-label {display: inline-block;
-position: relative;}
+label {
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+left: 20px;}
 
 input[type="radio"]{
   display: none;
 }
 
-label{
-  display: flex;
-  left: 20px;
-}
 
 span{
   display: inline-block;
