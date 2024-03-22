@@ -282,7 +282,7 @@ label[type="radio"]:checked + label::before{
 
 .send-button{
   position: absolute;
-  right: 10px;
+  right: 5px;
   top: 15px;
   width: 30px;
   border: none;
