@@ -34,8 +34,7 @@
     <main>      
       <div class="back-purple"></div>
       <div class="back-pink"></div>
-      <div class="main-container">
-      
+      <div class="main-container">      
       <div class="phone-container">
         <div class="white-space"></div>
         <div class="user-container">  
@@ -71,22 +70,26 @@
               She looks so happy! The time we discussed works. How long shall I take
               her out for?
             </p>
-
+            
             <div class="prices--main-container">
               <div class="prices-container">
-                <div class="radio-text">
-                <label class="time"><input type="radio" name="radio"/>30 minute walk</label>
-              </div>
+                <div class="radio-text">                
+                  <input id="30min" type="radio" name="radio1" checked="checked"/>
+                  <label for="30min">30 minute walk</label>
+                </div>
                 <h1 class="price">$29</h1>
+              </div>
             </div>
             <div class="prices-container">
               <div class="radio-text">                
-                <label class="time"><input  type="radio" name="radio"/>1 hour walk</label>
+                <input  id="1hour" type="radio" name="radio1"  checked="checked"/>
+                <label for="1hour" class="time">1 hour walk</label>
               </div>
                  <h1 class="price">$49</h1>
-              </div>
             </div>
-            <input class="placeholder" placeholder="Type a message…"></input>
+            <div class="placeholder-box">
+            <input class="placeholder" placeholder="Type a message…"><button class="send-button" type="submit"><img src="/Images/circle-chevron-right-solid.svg"></button></input>
+            </div>
           </div>
        
         </div>
